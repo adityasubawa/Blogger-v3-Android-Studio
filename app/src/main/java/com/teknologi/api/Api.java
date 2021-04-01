@@ -13,8 +13,8 @@ import retrofit2.http.GET;
 
 public class Api
 {
-    public static final String key = "AIzaSyC8ZdXCGK5KsTPrxr6SIGoPcgTAfAcspdM";
-    public static final String blog_id="5628972843210972748";
+    public static final String key = "YOUR_API_KEY";
+    public static final String blog_id="YOUR_BLOG_ID";
     private static final String url = "https://www.googleapis.com/blogger/v3/blogs/"+blog_id+"/posts/";
    
     public static PostService postService = null;
